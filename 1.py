@@ -34,7 +34,7 @@ font_scale = 3
 font = cv2.FONT_HERSHEY_PLAIN
 
 cap=cv2.VideoCapture(0)
-def enntry():
+def main():
     def baack():
         global cont
         #os._exit
@@ -75,4 +75,4 @@ def enntry():
         l1.place(relx=0.5,rely=0.51,anchor='center')
         app.update()
 
-enntry()
+main()
